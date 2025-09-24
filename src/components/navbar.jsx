@@ -9,7 +9,8 @@ const Navbar = () => {
     { label: "About", href: "/" },
     { label: "Services", href: "/" },
     { label: "Forum", href: "/forum" },
-    {label:"Riskboard",href:"/risk-dashboard"}
+    {label:"Riskboard",href:"/risk-dashboard"},
+    { label: "Education", href: "/education" },
   ];
 
   return (

@@ -3,6 +3,7 @@ import ForumPage from './pages/ForumPage'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import RiskDashboard from './pages/RiskDashboard'; 
+import Services from './pages/Services';
 
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/forum" element={<ForumPage />} />
         <Route path="/risk-dashboard" element={<RiskDashboard />} />
+        <Route path="/services" element={<Services />} /> 
         
-
 
       </Routes>
   )
